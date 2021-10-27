@@ -44,7 +44,7 @@ export const CartItem: FC<CartItemProps> = ({ product, count, onAdd, onRemove, r
                 <span className="form-control mx-2 d-flex "   >{count}</span>
                 <button className="btn btn-outline-secondary d-flex " style={{ maxWidth: 30 }} onClick={handleAdd}>+</button>
             </div>
-            <div className="align-self-end d-flex my-1" style={{ maxWidth: 150}}>
+            <div className="align-self-end d-flex my-1" style={{ maxWidth: 150 }}>
                 <h5>Сумма: {count * product.price}</h5>
             </div>
             <div style={{}}>
