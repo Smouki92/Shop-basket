@@ -59,7 +59,7 @@ const App = () => {
   return (
     <>
 
-      <div className="d-flex flex-column " style={{ position: 'relative', maxWidth: '900px', margin: '0 15%', marginTop: 50 }}>
+      <div className="d-flex flex-column " style={{  maxWidth: '900px', margin: '0 15%', marginTop: 50 }}>
         <div className="mb-5" style={{ fontSize: '48px', fontWeight: 900, textDecoration: 'underline' }}>Корзина</div>
 
         {cart.map(item => {
